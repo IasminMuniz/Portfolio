@@ -1,178 +1,128 @@
-
-        body {
-            border: 1px double gray;
-            border-radius: 10%;
-            margin-left: 15%;
-            margin-right: 15%;
-            background: #ADD8E6;
-        }
-        .container {
-            display: grid;
-            grid-auto-flow: column;
-            grid-auto-columns: 1fr;
-
-        }
-        #header {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 42px;
-            text-decoration-line: underline;
-            color: #070F18;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-        #menu {
-            text-align: center;
-            margin-top: 49px;
-        }
-        #menu ul {
-            list-style-type: none;
-            margin:0;
-            padding:0;
-        }
-        #menu li {
-            display: inline-block;
-            margin-left: 20px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            /* identical to box height */
-
-            text-align: center;
-
-            color: #070F18;
-        }
-        a {
-            color:black;
-            text-decoration: none;
-        }
-        a img {
-            width: 40%;
-        }
-        
-        
-        p.gray {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 32px;
-            color: #575455;
-        }
-        #headerCta h1 {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 45px;
-            color: #000000;
-        }
-        #headerImg {
-            text-align: center;
-        }
-        #headerImg img {
-            width: 45%;
-            border-style: outset;
-            border-radius: 10%;
-        }
-        .headerLogo {
-            text-align:center;
-        }
-        .headerLogo img {
-            width: 75%;
-        }
-        #clients {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        #headerClientText {
-            font-family: Poppins;
-            font-style: normal;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            color: #070F18;
-        }
-        h2.red {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 24px;
-            color: #F75C4E;
-        }
-        h1.black {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 54px;
-            margin-top:0;
-            color: #000000;
-        }
-        .textCenter {
-            text-align:center;
-        }
-        .textCenter img {
-            width: 70px;
-        }
-        #services .textCenter h3 {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
-            color: #070F18;
-        }
-        #contactImg img {
-            width: 100%;
-            border-radius: 10%;
-            margin-top: 5%;
-        }
-        #contactForm {
-            margin-left: 75px;
-            text-align:left;
-        }
-        #contact {
-            margin-top: 100px;
-        }
-        #contactForm input {
-            background: #F5F6FB;
-            border-radius: 50px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            color: #575455;
-            border:0;
-            width: 70%;
-            padding: 15px 30px 15px 30px;
-        }
-        #contactForm button {
-            background: #1F7CFF;
-            border-radius: 50px;
-            padding: 15px 30px 15px 30px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            border:0;
-            color: #FFFFFF;
-        }
-        #portfolioTitle {
-            margin-top: 150px;
-        }
-        .portfolioImg img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        .portfolioImg {
-            padding: 20px;
-        }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Portfólio</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Portfolio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#headerCta">Home</a></li>
+                <li><a href="#services">Sobre Mim</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#portfolioTitle">Portfólio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>
+                Olá, meu nome<br>
+                é Iasmin
+            </h1>
+            <p class="gray">
+                Sou estudante de programação e desenvolvimento,<br> 
+                e neste site lhes apresento meu portfólio<br> 
+                com alguns projetos realizados e outras informações.
+            </p>
+            <a target="_blank" alt="linkedin" href="https://www.linkedin.com/in/iasmin-muniz/">
+                <img src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/linkedin.png?raw=true">
+            </a>
+           
+        </div>
+        <div id="headerImg">
+            <img alt="Iasmin" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/iasmin_muniz.png?raw=true">
+        </div>
+    </div>
+    <div class="container" id="clients">
+        <div id="headerClientText">
+            SKILLS
+        </div>
+        <div class="headerLogo">
+            <img alt="chj" style="width: 190px" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/css_html_js.png?raw=true">
+        </div>
+        <div class="headerLogo">
+            <img alt="python" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/python.png?raw=true">
+        </div>
+        <div class="headerLogo">
+            <img alt="tresC" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/tres_C.png?raw=true">
+        </div>
+        <div class="headerLogo">
+            <img alt="sql" style="width: 75px" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/sql.jpg?raw=true">
+        </div>
+    </div>
+    <div class="container textCenter">
+        <div id="services">
+            <h2 class="red">Saiba mais</h2>
+            <h1 class="black">Sobre Mim</h1>
+        </div>
+    </div>
+    <div class="container" id="services">
+        <div class="textCenter">
+            <a target="_blank" href="https://iasminmuniz.github.io/Curriculo/">
+                <img src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/documento.png?raw=true"></a>
+            <p class="gray">
+                Sou uma pessoa dinâmica, criativa, flexível e adaptável, apaixonada por tecnologia, inovação e modernidade, que valoriza muito o trabalho em equipe e o reconhecimento das pessoas, além de me considerar uma boa líder para lidar com um grupo.Também ressalto como fortes características minha determinação, persistência e proatividade, na qual sou muito reconhecida pelos demais como sendo bons traços de minha personalidade. Tenho em mim a aptidão para administração e organização, que fazem com que as pessoas depositem em mim a confiança para cuidar de determinados assuntos importantes inclusive os que envolvem a questão financeira.
+                Tenho como objetivo atuar no mercado na área da tecnologia, inicialmente como Desenvolvedora Front-End, Back-End ou até mesmo Fullstack, mas também estou aberta para outras possibilidades para adquirir mais conhecimento de acordo com a oportunidade.
+            </p>
+            <a target="_blank" href="https://github.com/IasminMuniz">
+                <img style="width: 100px" alt="github" src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/github.png?raw=true">
+            </a>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div id="contactImg">
+            <img src="https://github.com/IasminMuniz/Portfolio/blob/main/imagina/acordo.jpg?raw=true">
+        </div>
+        <div id="contactForm">
+            <h2 class="red"></h2>
+            <h1 class="black">Contato</h1>
+            <p class="gray">
+                Digite aqui seu endereço de e-mail.<br> 
+                Eu entrarei em contato para maiores informações.
+            </p>
+            <form action="https://formspree.io/f/xaykwwop" method="POST">
+                <p><input placeholder="Seu e-mail" type="text" name="contactEmail" required="required"></p>
+                <button type="submit">Enviar</button>
+            </form>
+                
+        </div>
+    </div>
+    <div class="container" id="portfolioTitle">
+        <div>
+            <h2 class="red">Conheça o meu</h2>
+            <h1 class="black">Portfólio</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="portfolioImg">
+            <a 
+           target="_blank" href="https://iasminmuniz.github.io/Universidade-UNES/">
+                <img alt="Universidade UNES" src="https://github.com/IasminMuniz/Universidade-UNES/blob/main/img/capa.png?raw=true">
+            </a>
+        </div>   
+        <div class="portfolioImg">
+            <a target="_blank" href="https://iasminmuniz.github.io/Italian-Bistro/">
+                <img alt="Italian Bistrô" src="https://github.com/IasminMuniz/Italian-Bistro/blob/main/img/imagem_banner_home.jpg?raw=true">
+            </a>
+        </div>   
+        <div class="portfolioImg"> 
+		<a target="_blank" href="https://iasminmuniz.github.io/Anna_Bella/">
+                <img alt="Anna Bella" src="https://github.com/IasminMuniz/Anna_Bella/blob/main/capa.png?raw=true">
+        </div>    
+    </div>
+</body>
+</html>
