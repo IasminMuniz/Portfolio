@@ -1,5 +1,7 @@
 
         body {
+            border: 1px double gray;
+            border-radius: 10%;
             margin-left: 15%;
             margin-right: 15%;
             background: #ADD8E6;
