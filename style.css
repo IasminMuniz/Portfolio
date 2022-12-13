@@ -1,8 +1,17 @@
-	  
+
         body {
-            margin-left: 15%;
-            margin-right: 15%;
-            background: #ADD8E6;
+            border: 1px outset; gray;
+            border-radius: 1%;
+            padding: 10px;
+            margin: 50px;
+            padding: 5% 15%;
+            background: #D3D3D3;
+
+            background-image: url('https://github.com/IasminMuniz/Portfolio/blob/main/images/cibernetica.jpg?raw=true');
+            background-repeat: repeat;
+            background-position: center center;
+            background-size: cover;
+
         }
         .container {
             display: grid;
@@ -53,13 +62,13 @@
         }
         
         
-        p.gray {
+        p {
             font-family: Poppins;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
             line-height: 32px;
-            color: #575455;
+            color: #050E12;
         }
         #headerCta h1 {
             font-family: Poppins;
@@ -174,78 +183,3 @@
             padding: 20px;
         }
     
-            tamanho da fonte: 16px;
-            altura da linha: 24px;
-            cor: #F75C4E;
-        }
-        h1.preto {
-            fonte-família: Poppins;
-            estilo de fonte: normal;
-            peso da fonte: negrito;
-            tamanho da fonte: 36px;
-            line-height: 54px;
-            margin-top:0;
-            color: #000000;
-        }
-        .textCenter {
-            text-align:center;
-        }
-        .textCenter img {
-            width: 70px;
-        }
-        #services .textCenter h3 {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
-            cor: #070F18;
-        }
-        #contactImg img {
-            largura: 100%;
-            raio de fronteira: 10%;
-            margem superior: 5%;
-        }
-        #contactForm {
-            margem esquerda: 75px;
-            alinhamento de texto:esquerda;
-        }
-        #contato {
-            margem superior: 100px;
-        }
-        #contactForm entrada {
-            fundo: #F5F6FB;
-            raio de fronteira: 50px;
-            fonte-família: Poppins;
-            estilo de fonte: normal;
-            peso da fonte: normal;
-            tamanho da fonte: 16px;
-            altura da linha: 24px;
-            cor: #575455;
-            fronteira:0;
-            largura: 70%;
-            preenchimento: 15px 30px 15px 30px;
-        }
-        #contactForm botão {
-            fundo: #1F7CFF;
-            raio de fronteira: 50px;
-            preenchimento: 15px 30px 15px 30px;
-            fonte-família: Poppins;
-            estilo de fonte: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            border:0;
-            color: #FFFFFF;
-        }
-        #portfolioTitle {
-            margin-top: 150px;
-        }
-        .portfolioImg img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        .portfolioImg {
-            padding: 20px;
-        }
