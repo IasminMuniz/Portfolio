@@ -82,7 +82,7 @@
         }
         #headerImg img {
             width: 45%;
-            border-style: outset;
+            border-style: dotted;
             border-radius: 10%;
         }
         .headerLogo {
